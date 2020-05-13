@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CadastrarPessoa" verbose="1" >
+    <test name="CadastroPessoa" >
+        <classes>
+            <class name="CadastrarPessoaTest" />
+            <class name="ValidarCamposObrigatoriosPessoaTest" />
+        </classes>
+    </test>
+</suite>
+
+<!--<suite name="CadastrarPessoa" verbose="1">-->
+<!--    <test name="Regression1">-->
+<!--        <packages>-->
+<!--            <package name=""/>-->
+<!--        </packages>-->
+<!--    </test>-->
+<!--</suite>-->
